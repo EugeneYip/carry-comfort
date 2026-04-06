@@ -15,7 +15,7 @@ This repository is configured for GitHub Pages deployment via GitHub Actions.
 
 ### What is set up
 
-- `.github/workflows/deploy-gh-pages.yml` installs dependencies (`npm install --no-audit --no-fund`), builds, and deploys on every push to `main`.
+- `.github/workflows/deploy-gh-pages.yml` builds and deploys on every push to `main`.
 - `public/CNAME` contains `carryco.pro`, so GitHub Pages keeps the custom domain during deploys.
 - `npm run build:pages` creates a SPA-friendly `dist/404.html` by copying `dist/index.html`.
 
